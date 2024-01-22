@@ -8,4 +8,5 @@
 #define INCLUDE_ERROR 350
 
 #define SYS "SYS"
+#define COMMAND_LENGTH 100
 #endif
