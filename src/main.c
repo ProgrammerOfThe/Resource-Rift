@@ -6,7 +6,7 @@
 
 #include "../Assets/items.c"
 #include "../Assets/items.h"
-#include "../extensions/musicHandler.h"
+#include "../Music/musicHandler.c"
 
 int main(){
     int quit = 0;
@@ -25,8 +25,14 @@ int main(){
     sprintf(command, "time %s", lastDirectory);
     system(command);
 
+    musicPlayer();
+        
+    /* This is cursed
+    
     while(!quit){
         printf("Program is running");
+        
     }
+    */
 }
 

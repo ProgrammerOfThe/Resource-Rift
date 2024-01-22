@@ -9,4 +9,6 @@
 
 #define SYS "SYS"
 #define COMMAND_LENGTH 100
+
+#define PLAYLIST 100
 #endif
