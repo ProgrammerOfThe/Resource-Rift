@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int musicPlayer(){
+void musicPlayer(){
   
   int returnValue = system("cd ./../Music/");
 
@@ -12,8 +12,7 @@ int musicPlayer(){
     returnValue = system("afplay JustChillnByItsArkon_170copy.mp3 &");
   }else{
     perror("couldn't cd into directory");
-  }
-  return 0;  
+  }  
 }
 
 #endif
