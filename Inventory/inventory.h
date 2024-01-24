@@ -7,7 +7,7 @@
 #include <stdlib.h>
 
 struct Inventory {
-  int inventoryRows;
+  int inventoryRows = 4;
   char* inventorySize[ROWS]; // Fixed array size
 };
 
