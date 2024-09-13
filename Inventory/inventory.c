@@ -5,7 +5,7 @@
 #include "inventory.h"
 #include "../libs/foreach.h"
 
-int main() {
+int Inventory() {
   int rows;
   struct Inventory inventory;
   rows = inventory.inventoryRows;

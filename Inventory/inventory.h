@@ -1,10 +1,11 @@
 #ifndef INVENTORY_H
 #define INVENTORY_H
 
-#define ROWS (4 * 6)
-
 #include <stdio.h>
 #include <stdlib.h>
+
+
+#define ROWS (4 * 6)
 
 struct Inventory {
   int inventoryRows = 4;
