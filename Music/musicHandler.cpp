@@ -1,8 +1,9 @@
+#include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
 
 int musicPlayer() {
-    const char* filePath = "JustChillnByItsArkon_170copy.wav";
+    const char* filePath = "../Music/JustChillnByItsArkon_170copy.wav";
     const char* command = "afplay";
 
     // Construct the command with the file path

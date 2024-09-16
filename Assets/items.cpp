@@ -1,10 +1,11 @@
+#include <iostream>
 #include "stdio.h"
 #include "stdlib.h"
 #include "stdbool.h"
 
-#define ITEMS_H_INCLUDED
+#define ITEMS_HPP_INCLUDED
 
-#include "items.h"
+#include "items.hpp"
 
 #include "../extensions/macro.h"
 
@@ -17,7 +18,7 @@ bool ItemReader(){
     if (itemsFile != NULL){
       return false;
     }else{
-      return exit(EXIT_FAILURE);
+      return 1;
     }
 
   #else
