@@ -1,10 +1,11 @@
 #ifndef ITEMS_H_  
 #define ITEMS_H_
 
+#include <iostream>
 // Set item health means the starting item healh, with current being what was being used like if it was degraded.
 
 
-#include "../Inventory/inventory.c"
+#include "../Inventory/inventory.cpp"
 
 struct ItemStats{
   static const int setItemHealth = 50;      
